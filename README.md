@@ -1,23 +1,25 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luxe Wardrobe - Modern Clothing Brand</title>
+    <title>Lumea - High-End Clothing Brand</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
         <nav>
-            <div class="logo">Luxe Wardrobe</div>
+            <div class="logo">Lumea</div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#categories">Categories</a></li>
-                <li><a href="#featured">Featured</a></li>
+                <li><a href="#collections">Collections</a></li>
+                <li><a href="#why-choose-us">Why Choose Us</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="hamburger">
@@ -28,103 +30,181 @@
         </nav>
     </header>
 
+    <!-- Home / Hero Section -->
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1>Elevate Your Style</h1>
-            <p>Discover timeless pieces crafted for the modern wardrobe.</p>
-            <a href="#featured" class="cta-button">Shop Now</a>
+            <h1>Timeless Elegance Redefined</h1>
+            <p>Discover luxury fashion crafted for the discerning soul.</p>
+            <a href="#collections" class="cta-button">Explore Collection</a>
         </div>
-        <div class="hero-image">
-            <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Fashion model">
+        <div class="hero-image parallax">
+            <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Lumea fashion model">
         </div>
     </section>
 
+    <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
-            <h2>About Luxe Wardrobe</h2>
-            <p>Luxe Wardrobe is a fashion-forward brand dedicated to creating chic, minimal clothing that blends comfort with elegance. Our collections feature soft neutrals accented with bold shades, perfect for the discerning individual who values quality and style.</p>
-            <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Brand story image">
+            <div class="about-content">
+                <h2>Our Story</h2>
+                <p>At Lumea, we believe in the power of simplicity and sophistication. Our mission is to create high-end clothing that transcends trends, blending ethical production with timeless design. Our vision is a world where fashion empowers confidence, and our values center on quality, sustainability, and elegance.</p>
+            </div>
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Lumea studio or founder">
+            </div>
         </div>
     </section>
 
-    <section id="categories" class="categories">
+    <!-- Collections / Products Section -->
+    <section id="collections" class="collections">
         <div class="container">
-            <h2>Product Categories</h2>
-            <div class="grid">
-                <div class="card">
-                    <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Dresses">
-                    <h3>Dresses</h3>
-                    <p>Elegant and versatile dresses for every occasion.</p>
-                </div>
-                <div class="card">
-                    <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Tops">
+            <h2>Collections</h2>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Tops">
                     <h3>Tops</h3>
-                    <p>Chic tops in soft fabrics and modern cuts.</p>
+                    <div class="hover-overlay">
+                        <p>Quick View</p>
+                        <span>$89.99</span>
+                    </div>
                 </div>
-                <div class="card">
-                    <img src="https://images.unsplash.com/photo-1542272604-787c3835535d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Bottoms">
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Bottoms">
                     <h3>Bottoms</h3>
-                    <p>Comfortable pants and skirts with a minimalist edge.</p>
+                    <div class="hover-overlay">
+                        <p>Quick View</p>
+                        <span>$119.99</span>
+                    </div>
                 </div>
-                <div class="card">
-                    <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Accessories">
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1542272604-787c3835535d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Accessories">
                     <h3>Accessories</h3>
-                    <p>Subtle accents to complete your look.</p>
+                    <div class="hover-overlay">
+                        <p>Quick View</p>
+                        <span>$49.99</span>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-carousel">
+                <h3>Featured Products</h3>
+                <div class="carousel-container">
+                    <div class="carousel-slide">
+                        <div class="product-card">
+                            <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Silk Blouse">
+                            <h4>Silk Blouse</h4>
+                            <p>$149.99</p>
+                        </div>
+                        <div class="product-card">
+                            <img src="https://images.unsplash.com/photo-1582418702059-97ebafb35d09?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Cashmere Sweater">
+                            <h4>Cashmere Sweater</h4>
+                            <p>$299.99</p>
+                        </div>
+                        <div class="product-card">
+                            <img src="https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Tailored Pants">
+                            <h4>Tailored Pants</h4>
+                            <p>$199.99</p>
+                        </div>
+                    </div>
+                    <button class="carousel-prev">&lt;</button>
+                    <button class="carousel-next">&gt;</button>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="featured" class="featured">
+    <!-- Why Choose Us Section -->
+    <section id="why-choose-us" class="why-choose-us">
         <div class="container">
-            <h2>Featured Products</h2>
-            <div class="grid">
-                <div class="product-card">
-                    <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Product 1">
-                    <h3>Minimalist Dress</h3>
-                    <p>$89.99</p>
-                    <button class="add-to-cart">Add to Cart</button>
+            <h2>Why Choose Lumea</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <div class="icon">🌿</div>
+                    <h3>Ethical Production</h3>
+                    <p>Sustainably sourced materials and fair labor practices.</p>
                 </div>
-                <div class="product-card">
-                    <img src="https://images.unsplash.com/photo-1582418702059-97ebafb35d09?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Product 2">
-                    <h3>Chic Blouse</h3>
-                    <p>$59.99</p>
-                    <button class="add-to-cart">Add to Cart</button>
+                <div class="feature">
+                    <div class="icon">✨</div>
+                    <h3>Timeless Design</h3>
+                    <p>Classic pieces that never go out of style.</p>
                 </div>
-                <div class="product-card">
-                    <img src="https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Product 3">
-                    <h3>Sleek Pants</h3>
-                    <p>$79.99</p>
-                    <button class="add-to-cart">Add to Cart</button>
+                <div class="feature">
+                    <div class="icon">🧵</div>
+                    <h3>Quality Fabrics</h3>
+                    <p>Premium materials for unparalleled comfort and durability.</p>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>What Our Clients Say</h2>
+            <div class="testimonials-carousel">
+                <div class="testimonial-slide">
+                    <div class="testimonial-card">
+                        <p>"Lumea's pieces are exquisite and timeless. I feel confident and elegant in every outfit."</p>
+                        <cite>- Sophia R.</cite>
+                    </div>
+                    <div class="testimonial-card">
+                        <p>"The quality is unmatched. Ethical fashion that doesn't compromise on style."</p>
+                        <cite>- Marcus L.</cite>
+                    </div>
+                    <div class="testimonial-card">
+                        <p>"A wardrobe staple. Luxurious and comfortable for everyday wear."</p>
+                        <cite>- Elena K.</cite>
+                    </div>
+                </div>
+                <button class="testimonial-prev">&lt;</button>
+                <button class="testimonial-next">&gt;</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2>Contact Us</h2>
-            <form>
-                <input type="text" placeholder="Name" required>
-                <input type="email" placeholder="Email" required>
-                <textarea placeholder="Message" required></textarea>
-                <button type="submit">Send Message</button>
+            <h2>Get in Touch</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="cta-button">Send Message</button>
             </form>
             <div class="social-links">
                 <a href="#" class="social-icon">Instagram</a>
                 <a href="#" class="social-icon">Facebook</a>
-                <a href="#" class="social-icon">Twitter</a>
+                <a href="#" class="social-icon">Pinterest</a>
+            </div>
+            <!-- Optional Map Embed (replace with your embed code) -->
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509374!2d144.9537353153166!3d-37.816279742021665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d4a9c8b5b1!2sMelbourne%20CBD%2C%20Victoria%2C%20Australia!5e0!3m2!1sen!2sus!4v1633072800000!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
     </section>
 
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2023 Luxe Wardrobe. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2023 Lumea. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="footer-social">
+                <a href="#" class="social-icon">IG</a>
+                <a href="#" class="social-icon">FB</a>
+                <a href="#" class="social-icon">PT</a>
+            </div>
+        </div>
     </footer>
 
     <script src="script.js"></script>
 </body>
-</html>/* Global Styles */
+</html>/* Mobile-first CSS: Base styles for mobile, then media queries for larger screens */
+
+/* Global Styles */
 * {
     margin: 0;
     padding: 0;
@@ -134,12 +214,13 @@
 body {
     font-family: 'Lato', sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #f5f5f5;
+    color: #4a4a4a; /* Soft gray */
+    background-color: #f5f5dc; /* Beige */
+    overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
-h1, h2, h3 {
-    font-family: 'Montserrat', sans-serif;
+h1, h2, h3, h4 {
+    font-family: 'Playfair Display', serif;
     font-weight: 700;
 }
 
@@ -154,45 +235,57 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
     z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 1rem 1.5rem;
 }
 
 .logo {
     font-size: 1.5rem;
-    font-weight: 700;
-    color: #e91e63;
+    color: #d4af37; /* Gold accent */
 }
 
 .nav-links {
-    display: flex;
+    display: none; /* Hidden on mobile */
     list-style: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links.active {
+    display: flex;
 }
 
 .nav-links li {
-    margin-left: 2rem;
+    margin: 1rem 0;
+    text-align: center;
 }
 
 .nav-links a {
     text-decoration: none;
-    color: #333;
+    color: #4a4a4a;
     transition: color 0.3s;
 }
 
 .nav-links a:hover {
-    color: #2196f3;
+    color: #ffb6c1; /* Blush accent */
 }
 
 .hamburger {
-    display: none;
+    display: flex;
     flex-direction: column;
     cursor: pointer;
 }
@@ -200,7 +293,7 @@ nav {
 .hamburger span {
     width: 25px;
     height: 3px;
-    background-color: #333;
+    background-color: #4a4a4a;
     margin: 3px 0;
     transition: 0.3s;
 }
@@ -208,25 +301,23 @@ nav {
 /* Hero Section */
 .hero {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     min-height: 100vh;
-    background-color: #fff;
-    padding: 0 2rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5rem 1rem 2rem;
+    background-color: #fffaf0; /* Cream */
 }
 
-.hero-content {
-    flex: 1;
-    padding-right: 2rem;
-}
-
-.hero h1 {
-    font-size: 3rem;
+.hero-content h1 {
+    font-size: 2rem;
     margin-bottom: 1rem;
-    color: #333;
+    color: #4a4a4a;
 }
 
-.hero p {
-    font-size: 1.2rem;
+.hero-content p {
+    font-size: 1rem;
     margin-bottom: 2rem;
     color: #666;
 }
@@ -234,308 +325,155 @@ nav {
 .cta-button {
     display: inline-block;
     padding: 0.8rem 2rem;
-    background-color: #e91e63;
+    background-color: #d4af37; /* Gold */
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.3s;
 }
 
 .cta-button:hover {
-    background-color: #d81b60;
+    background-color: #b8860b;
+    transform: translateY(-2px);
 }
 
 .hero-image {
-    flex: 1;
+    width: 100%;
+    margin-top: 2rem;
 }
 
 .hero-image img {
     width: 100%;
     border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.hero-image img:hover {
+    transform: scale(1.05);
+}
+
+.parallax {
+    transform: translateZ(0); /* Enable hardware acceleration for parallax */
 }
 
 /* About Section */
 .about {
-    padding: 5rem 0;
-    background-color: #f9f9f9;
+    padding: 4rem 0;
+    background-color: #f5f5dc; /* Beige */
+}
+
+.about .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 
-.about h2 {
+.about-content {
     margin-bottom: 2rem;
-    color: #333;
 }
 
-.about p {
-    max-width: 600px;
-    margin: 0 auto 2rem;
-    color: #666;
+.about-content h2 {
+    margin-bottom: 1rem;
+    color: #4a4a4a;
 }
 
-.about img {
+.about-image img {
     width: 100%;
-    max-width: 600px;
+    max-width: 400px;
     border-radius: 10px;
+    transition: transform 0.3s;
 }
 
-/* Categories Section */
-.categories {
-    padding: 5rem 0;
-    background-color: #fff;
+.about-image img:hover {
+    transform: scale(1.05);
 }
 
-.categories h2 {
+/* Collections Section */
+.collections {
+    padding: 4rem 0;
+    background-color: #fffaf0; /* Cream */
+}
+
+.collections h2 {
     text-align: center;
-    margin-bottom: 3rem;
-    color: #333;
+    margin-bottom: 2rem;
+    color: #4a4a4a;
 }
 
-.grid {
+.categories-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: 1fr;
     gap: 2rem;
-}
-
-.card {
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    overflow: hidden;
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-}
-
-.card img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-}
-
-.card h3 {
-    padding: 1rem;
-    color: #333;
-}
-
-.card p {
-    padding: 0 1rem 1rem;
-    color: #666;
-}
-
-/* Featured Section */
-.featured {
-    padding: 5rem 0;
-    background-color: #f9f9f9;
-}
-
-.featured h2 {
-    text-align: center;
     margin-bottom: 3rem;
-    color: #333;
 }
 
-.product-card {
-    background-color: #fff;
-    border-radius: 10px;
+.category-card {
+    position: relative;
     overflow: hidden;
-    text-align: center;
-    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 10px;
+    transition: transform 0.3s;
 }
 
-.product-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+.category-card:hover {
+    transform: translateY(-5px);
 }
 
-.product-card img {
+.category-card img {
     width: 100%;
     height: 250px;
     object-fit: cover;
 }
 
-.product-card h3 {
-    padding: 1rem;
-    color: #333;
-}
-
-.product-card p {
-    color: #e91e63;
-    font-weight: 700;
-}
-
-.add-to-cart {
-    display: block;
+.hover-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    padding: 0.8rem;
-    background-color: #2196f3;
-    color: #fff;
-    border: none;
-    border-radius: 0 0 10px 10px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.add-to-cart:hover {
-    background-color: #1976d2;
-}
-
-/* Contact Section */
-.contact {
-    padding: 5rem 0;
-    background-color: #fff;
-    text-align: center;
-}
-
-.contact h2 {
-    margin-bottom: 2rem;
-    color: #333;
-}
-
-form {
-    max-width: 500px;
-    margin: 0 auto 3rem;
-}
-
-input, textarea {
-    width: 100%;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-family: 'Lato', sans-serif;
-}
-
-button[type="submit"] {
-    width: 100%;
-    padding: 1rem;
-    background-color: #e91e63;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-button[type="submit"]:hover {
-    background-color: #d81b60;
-}
-
-.social-links {
+    height: 100%;
+    background-color: rgba(255, 182, 193, 0.8); /* Blush overlay */
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    gap: 2rem;
-}
-
-.social-icon {
-    text-decoration: none;
-    color: #2196f3;
-    font-weight: 700;
-    transition: color 0.3s;
-}
-
-.social-icon:hover {
-    color: #1976d2;
-}
-
-/* Footer */
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem 0;
-}
-
-/* Animations */
-.fade-in {
+    align-items: center;
     opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.6s, transform 0.6s;
+    transition: opacity 0.3s;
+    color: #fff;
 }
 
-.fade-in.visible {
+.category-card:hover .hover-overlay {
     opacity: 1;
-    transform: translateY(0);
 }
 
-/* Mobile Responsiveness */
-@media (max-width: 768px) {
-    nav {
-        padding: 1rem;
-    }
+.hover-overlay p {
+    font-weight: 700;
+}
 
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        background-color: #fff;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
+.hover-overlay span {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+}
 
-    .nav-links.active {
-        display: flex;
-    }
+.featured-carousel h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #4a4a4a;
+}
 
-    .nav-links li {
-        margin: 1rem 0;
-    }
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+}
 
-    .hamburger {
-        display: flex;
-    }
+.carousel-slide {
+    display: flex;
+    transition: transform 0.3s;
+}
 
-    .hero {
-        flex-direction: column;
-        text-align: center;
-        padding: 2rem 1rem;
-    }
-
-    .hero-content {
-        padding-right: 0;
-    }
-
-    .hero h1 {
-        font-size: 2rem;
-    }
-
-    .grid {
-        grid-template-columns: 1fr;
-    }
-
-    .social-links {
-        flex-direction: column;
-    }
-}// Smooth scrolling for navigation links
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
-    });
-});
-
-// Mobile menu toggle
-const hamburger = document.querySelector('.hamburger');
-const navLinks = document.querySelector('.nav-links');
-hamburger.addEventListener('click', () => {
-    navLinks.classList.toggle('active');
-});
-
-// Fade-in animation on scroll
-const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            entry.target.classList.add('visible');
-        }
-    });
-});
-
-document.querySelectorAll('.card, .product-card, .about img').forEach(el => {
-    el.classList.add('fade-in');
-    observer.observe(el);
-});
+.product-card {
+    min-width: 250px;
+    margin: 0 1rem;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow
